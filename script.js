@@ -1,6 +1,6 @@
 // Resume link
 document.getElementById("resumeBtn").href =
-"https://drive.google.com/uc?export=download&id=1YdbP2FOGo7ggLVgcj43Y6JrXXaXqkSHx";
+"https://drive.google.com/file/d/1JtfXsnUu9V_E_A1EdmVkeVDAkIgOnsoq/view?usp=drive_link";
 
 // Dark mode logic
 document.getElementById("themeToggle").onclick = () => {
@@ -105,5 +105,6 @@ async function loadGitHub() {
     console.error("Error loading GitHub repos:", error);
   }
 }
+
 
 loadGitHub();
